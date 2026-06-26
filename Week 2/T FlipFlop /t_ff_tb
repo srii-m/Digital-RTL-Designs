@@ -1,0 +1,25 @@
+module t_ff_tb(
+    );
+    
+    reg t,clk,rst;
+    wire q , qb;
+    t_ff uut (t,clk,rst,q,qb);
+    initial begin
+    clk=0;
+    forever #5 clk=~clk; 
+    end
+    initial begin
+    t=0;
+    rst=0;
+    #10
+    rst=1;
+    #10
+    t=1;
+    #10
+    rst=0;
+    end
+    initial begin
+  $monitor("\t Clk: %d  Rst: %d  T: %d Q: %d  Qb: %d", clk,rst,t,q,qb);
+  #30 $finish;
+  end
+endmodule
