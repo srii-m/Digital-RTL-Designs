@@ -1,31 +1,27 @@
 # Digital RTL Designs
 
-A collection of **Verilog HDL** implementations developed while learning **RTL (Register Transfer Level) Design**. Each module contains RTL code, testbench, simulation results, and screenshots.
+A collection of **Verilog HDL** implementations developed while learning **Register Transfer Level (RTL) Design**. Each module contains RTL source code, testbenches, simulation results, and screenshots.
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
-```text
-Digital-RTL-Designs
-│
-├── 📁 Week 1
-│   ├── 📁 [1. Adders](Week%201/Adders/)
-│   ├── 📁 [2. Comparators](Week%201/Comparators/)
-│   └── 📁 [3. Subtractors](Week%201/Subtractors/)
-│
-└── 📁 Week 2
-    ├── 📁 [1. SR FlipFlop](Week%202/SR%20FlipFlop/)
-    ├── 📁 [2. JK FlipFlop](Week%202/JK%20FlipFlop/)
-    ├── 📁 [3. T FlipFlop](Week%202/T%20FlipFlop/)
-    └── 📁 [4. Simple 3 bit ALU](Week%202/Simple%203%20bit%20ALU/)
-```
+### Week 1 – Combinational Circuits
+
+- 📁 **1.** [Adders](./Week%201/Adders/)
+- 📁 **2.** [Comparators](./Week%201/Comparators/)
+- 📁 **3.** [Subtractors](./Week%201/Subtractors/)
+
+### Week 2 – Sequential Circuits
+
+- 📁 **1.** [SR FlipFlop](./Week%202/SR%20FlipFlop/)
+- 📁 **2.** [JK FlipFlop](./Week%202/JK%20FlipFlop/)
+- 📁 **3.** [T FlipFlop](./Week%202/T%20FlipFlop/)
+- 📁 **4.** [Simple 3 bit ALU](./Week%202/Simple%203%20bit%20ALU/)
 
 ---
 
-## Folder Contents
-
-Each circuit directory includes:
+## 📄 Each Folder Contains
 
 - RTL Design (Verilog HDL)
 - Testbench
@@ -34,15 +30,15 @@ Each circuit directory includes:
 
 ---
 
-## Tools Used
+## 🛠 Tools Used
 
 - Verilog HDL
 - Xilinx Vivado
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Sriinidhi M**
 
-Learning Digital Design and RTL Programming using Verilog HDL.
+RTL Design & Digital Electronics using Verilog HDL.
